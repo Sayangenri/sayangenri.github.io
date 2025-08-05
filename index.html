@@ -1,111 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sayan Genri | Web3 Builder</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sayan Genri | Portfolio</title>
   <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: #0d1117;
-      color: #e6edf3;
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
+      font-family: Arial, sans-serif;
     }
+
+    body {
+      background-color: #ffffff;
+      color: #000000;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
     header {
-      background: #161b22;
-      padding: 2rem;
       text-align: center;
+      margin-bottom: 40px;
     }
+
     header h1 {
-      margin: 0;
       font-size: 2.5rem;
     }
+
     header p {
-      margin: 0.5rem 0 0;
-      font-size: 1.2rem;
-      color: #8b949e;
+      margin-top: 10px;
+      font-size: 1.1rem;
     }
-    .section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
+
+    section {
+      margin-bottom: 40px;
     }
-    .section h2 {
-      color: #58a6ff;
-      border-bottom: 1px solid #30363d;
-      padding-bottom: 0.5rem;
+
+    h2 {
+      border-bottom: 2px solid #000;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
     }
-    .card {
-      background: #161b22;
-      border: 1px solid #30363d;
-      border-radius: 10px;
-      padding: 1rem;
-      margin-bottom: 1rem;
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
     }
-    a {
-      color: #58a6ff;
+
+    .contact a {
       text-decoration: none;
+      color: #000;
+      display: inline-block;
+      margin-right: 10px;
     }
-    a:hover {
-      text-decoration: underline;
+
+    .project {
+      margin-bottom: 10px;
     }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      color: #8b949e;
-      font-size: 0.9rem;
+
+    @media (max-width: 768px) {
+      body {
+        padding: 15px;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>Sayan Genri</h1>
-    <p>Full-Stack Web3 Developer • DevRel • Content Creator</p>
+    <p>Web3 Developer | Dev Advocate | Community Builder</p>
+    <div class="contact">
+      <a href="mailto:sayangenri1@gmail.com">Email</a> |
+      <a href="https://x.com/Sayan__Genri">Twitter</a> |
+      <a href="https://linkedin.com/in/sayangenri/">LinkedIn</a> |
+      <a href="https://github.com/Sayangenri">GitHub</a>
+    </div>
   </header>
-
-  <div class="section">
-    <h2>About Me</h2>
-    <p>Hi! I’m Bittu (aka Sayangenri) — a full-stack Web3 developer and active community contributor. I’ve worked on decentralized apps like SimpleArtify, Fractls, and TaskMaster Pro, combining creativity with tech to deliver impactful blockchain experiences.</p>
-  </div>
-
-  <div class="section">
-    <h2>Projects</h2>
-    <div class="card">
-      <strong>🔗 <a href="#">SimpleArtify</a></strong>
-      <p>Decentralized NFT gallery for artists using IPFS, Solidity, and React.</p>
-    </div>
-    <div class="card">
-      <strong>🧩 <a href="#">Fractls</a></strong>
-      <p>Fractional NFT marketplace with puzzle-like game elements and anonymous minting.</p>
-    </div>
-    <div class="card">
-      <strong>📈 <a href="#">lendOS</a></strong>
-      <p>DeFi lending protocol on Neon EVM, emphasizing security and decentralization.</p>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Communities & Ambassador Roles</h2>
-    <ul>
-      <li>✅ Push Protocol Ambassador</li>
-      <li>✅ Member of Hack4Bengal, Reclaim Protocol, Avalanche India, Polygon Guild Kolkata</li>
-      <li>📢 Content creator for ONDC, Push, Unstoppable Domains, Uprock, Wormhole</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Connect With Me</h2>
+  <section>
+    <h2>Introduction</h2>
     <p>
-      <a href="https://github.com/Sayangenri">GitHub</a> | 
-      <a href="https://x.com/SayanGenri">Twitter</a> | 
-      <a href="mailto:sayangenri@example.com">Email</a>
+      Hi, I'm Sayan Genri a passionate Web3 developer, community builder, and tech educator.
+      With hands-on experience as a Dev Advocate at Router Protocol and Push Protocol, and leadership roles like GDG
+      Lead at MAKAUT, I love bridging the gap between builders and blockchain ecosystems.
+      I’ve built impactful projects across the decentralized space from NFT platforms to FIR dApps and enjoy
+      creating educational content that simplifies Web3 for everyone.
     </p>
-  </div>
+  </section>
 
-  <footer>
-    © 2025 Sayangenri • Built with ❤️ for the decentralized world
-  </footer>
+  <section>
+    <h2>Education</h2>
+    <p><strong>Maulana Abul Kalam Azad University of Technology</strong>, Hooghly, West Bengal</p>
+    <p>B.Tech in Computer Science & Engineering (Oct 2022 – June 2026)</p>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Router Protocol</strong> – Dev Advocate (Nov 2024 – Present)</li>
+      <li><strong>Google Developer Group Lead</strong> – MAKAUT University (Sept 2024 – Present)</li>
+      <li><strong>Push Protocol</strong> – Dev Advocate (Feb 2023 – Nov 2023)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Achievements</h2>
+    <ul>
+      <li>Won 3 hackathons + bounties in multiple tracks</li>
+      <li>Secured bounties for LendOS and Superteam IRL</li>
+      <li>Recognized by Lighthouse, Vara Network, Gateway.fm</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <strong>Oswald</strong> – On-chain GitHub backup to Lighthouse & Polygon
+    </div>
+    <div class="project">
+      <strong>NFT-Ticket</strong> – Transparent decentralized event ticketing using Thirdweb & Avalanche
+    </div>
+    <div class="project">
+      <strong>Crime Diesel</strong> – FIR registration DApp with encrypted chat and evidence verification
+    </div>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Java, Python, C/C++, JavaScript, Solidity, Rust, SQL, HTML/CSS</li>
+      <li><strong>Frameworks:</strong> React, Node.js, Flask, Django</li>
+      <li><strong>Libraries:</strong> Web3.js, Ethers.js, pandas, NumPy, Matplotlib</li>
+      <li><strong>Tools:</strong> Git, Docker, VS Code, PyCharm, Blockchain explorers</li>
+    </ul>
+  </section>
 </body>
+
 </html>
