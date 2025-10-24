@@ -10,7 +10,7 @@
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-      font-family: Arial, sans-serif;
+      font-family: "Poppins", Arial, sans-serif;
     }
 
     body {
@@ -27,11 +27,29 @@
 
     header h1 {
       font-size: 2.5rem;
+      font-weight: 700;
     }
 
     header p {
       margin-top: 10px;
       font-size: 1.1rem;
+      color: #444;
+    }
+
+    .contact {
+      margin-top: 10px;
+    }
+
+    .contact a {
+      text-decoration: none;
+      color: #0077b6;
+      font-weight: 500;
+      margin: 0 8px;
+      transition: color 0.3s;
+    }
+
+    .contact a:hover {
+      color: #005f73;
     }
 
     section {
@@ -42,6 +60,7 @@
       border-bottom: 2px solid #000;
       padding-bottom: 5px;
       margin-bottom: 15px;
+      font-size: 1.5rem;
     }
 
     ul {
@@ -49,15 +68,16 @@
       padding-left: 20px;
     }
 
-    .contact a {
-      text-decoration: none;
-      color: #000;
-      display: inline-block;
-      margin-right: 10px;
+    li {
+      margin-bottom: 8px;
     }
 
     .project {
-      margin-bottom: 10px;
+      margin-bottom: 15px;
+    }
+
+    strong {
+      color: #000;
     }
 
     @media (max-width: 768px) {
@@ -68,6 +88,10 @@
       header h1 {
         font-size: 2rem;
       }
+
+      h2 {
+        font-size: 1.3rem;
+      }
     }
   </style>
 </head>
@@ -77,69 +101,101 @@
     <h1>Sayan Genri</h1>
     <p>Web3 Developer | Dev Advocate | Community Builder</p>
     <div class="contact">
-      <a href="mailto:sayangenri1@gmail.com">Email</a> |
+      📞 <a href="tel:+918337097668">+91 83370 97668</a> |
+      📧 <a href="mailto:sayangenri1@gmail.com">sayangenri1@gmail.com</a> |
       <a href="https://x.com/Sayan__Genri">Twitter</a> |
       <a href="https://linkedin.com/in/sayangenri/">LinkedIn</a> |
       <a href="https://github.com/Sayangenri">GitHub</a>
     </div>
   </header>
+
   <section>
     <h2>Introduction</h2>
     <p>
-      Hi, I'm Sayan Genri a passionate Web3 developer, community builder, and tech educator.
-      With hands-on experience as a Dev Advocate at Router Protocol and Push Protocol, and leadership roles like GDG
-      Lead at MAKAUT, I love bridging the gap between builders and blockchain ecosystems.
-      I’ve built impactful projects across the decentralized space from NFT platforms to FIR dApps and enjoy
-      creating educational content that simplifies Web3 for everyone.
+      Hi, I'm <strong>Sayan Genri</strong> — a passionate Web3 developer, community builder, and tech educator.
+      With hands-on experience as a Dev Advocate at Router Protocol and Push Protocol, and leadership roles like
+      <strong>GDG Lead</strong> at MAKAUT, I love bridging the gap between builders and blockchain ecosystems.
+      I’ve built impactful projects from NFT platforms to FIR dApps, and enjoy creating educational content that simplifies
+      Web3 for everyone.
     </p>
   </section>
 
   <section>
     <h2>Education</h2>
-    <p><strong>Maulana Abul Kalam Azad University of Technology</strong>, Hooghly, West Bengal</p>
+    <p><strong>Maulana Abul Kalam Azad University of Technology (MAKAUT)</strong>, Hooghly, West Bengal</p>
     <p>B.Tech in Computer Science & Engineering (Oct 2022 – June 2026)</p>
   </section>
 
   <section>
     <h2>Experience</h2>
     <ul>
-      <li><strong>Router Protocol</strong> – Dev Advocate (Nov 2024 – Present)</li>
-      <li><strong>Google Developer Group Lead</strong> – MAKAUT University (Sept 2024 – Present)</li>
-      <li><strong>Push Protocol</strong> – Dev Advocate (Feb 2023 – Nov 2023)</li>
+      <li>
+        <strong>Router Protocol</strong> – Dev Advocate (Nov 2024 – Present)
+        <ul>
+          <li>Hosted 10+ online/offline workshops (200+ participants) and organized Router Hackerhouse at IBW.</li>
+          <li>Built ecosystem projects contributing to Router Protocol’s growth.</li>
+          <li>Created educational threads/videos achieving 100K+ impressions.</li>
+        </ul>
+      </li>
+
+      <li>
+        <strong>Google Developer Group Lead</strong> – MAKAUT University (Sept 2024 – Present)
+        <ul>
+          <li>Hosted 10+ workshops engaging 500+ campus students.</li>
+          <li>Grew GDG community to 1,000+ members in a year.</li>
+          <li>Built partnerships and connections with developers and organizations.</li>
+        </ul>
+      </li>
+
+      <li>
+        <strong>Push Protocol</strong> – Dev Advocate (Feb 2023 – Nov 2023)
+        <ul>
+          <li>Organized 4 events (2 online, 2 offline) for Push Protocol.</li>
+          <li>Created blogs, videos, and educational content for developers.</li>
+        </ul>
+      </li>
     </ul>
   </section>
 
   <section>
     <h2>Achievements</h2>
     <ul>
-      <li>Won 3 hackathons + bounties in multiple tracks</li>
-      <li>Secured bounties for LendOS and Superteam IRL</li>
-      <li>Recognized by Lighthouse, Vara Network, Gateway.fm</li>
+      <li>Won 4 hackathons and earned over $1000 in bounties across multiple tracks.</li>
+      <li>Secured 2 bounties for LendOS and Superteam IRL.</li>
+      <li>Awarded $500 bounty for outstanding performance in Push Protocol’s Bootcamp & Ambassador Program.</li>
+      <li>Recognized by Algorand, Lighthouse, Vara Network, and Gateway.fm for ecosystem contributions.</li>
     </ul>
   </section>
 
   <section>
     <h2>Projects</h2>
     <div class="project">
-      <strong>Oswald</strong> – On-chain GitHub backup to Lighthouse & Polygon
+      <strong>MYRAD</strong> | ethers.js, Foundry, Remix, Ethereum, Filecoin, Express, React.js (Sept 2025)<br />
+      A decentralized marketplace for secure, transparent data exchange using DataCoins for monetization and tradable access rights.
+      Blockchain and decentralized storage ensure provenance and seamless sharing.
     </div>
+
     <div class="project">
-      <strong>NFT-Ticket</strong> – Transparent decentralized event ticketing using Thirdweb & Avalanche
+      <strong>Oswald</strong> | JavaScript, GitHub Workflows, Solidity, Lighthouse, Polygon (Dec 2024)<br />
+      NPM package enabling on-chain GitHub repo/file backups into Lighthouse. Ensures data access even if repositories are deleted.
+      Backups are permanently recorded on the Polygon PoS chain.
     </div>
+
     <div class="project">
-      <strong>Crime Diesel</strong> – FIR registration DApp with encrypted chat and evidence verification
+      <strong>NFT Ticket</strong> | JavaScript, Thirdweb, Lighthouse, Avalanche<br />
+      Transforms ticketing with fairness and transparency via Web3. A decentralized, trustless system that enhances brand trust.
     </div>
   </section>
 
   <section>
     <h2>Technical Skills</h2>
     <ul>
-      <li><strong>Languages:</strong> Java, Python, C/C++, JavaScript, Solidity, Rust, SQL, HTML/CSS</li>
+      <li><strong>Languages:</strong> Java, Python, C/C++, SQL, JavaScript, HTML/CSS, Solidity, Rust</li>
       <li><strong>Frameworks:</strong> React, Node.js, Flask, Django</li>
+      <li><strong>Developer Tools:</strong> Git, Docker, VS Code, PyCharm, On-chain Explorers</li>
       <li><strong>Libraries:</strong> Web3.js, Ethers.js, pandas, NumPy, Matplotlib</li>
-      <li><strong>Tools:</strong> Git, Docker, VS Code, PyCharm, Blockchain explorers</li>
     </ul>
   </section>
-</body>
 
+</body>
 </html>
